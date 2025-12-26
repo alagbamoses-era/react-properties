@@ -9,7 +9,7 @@ export const Students =(props) => {
             <p>Sex: {props.sex}</p>
             <p>Age: {props.age}</p>
             <p>Student: {props.isStudent? "Yes" : "no"}</p>
-            <p>Income: £{props.income}</p>
+            <p>Monthly Income: £{props.income}</p>
             <p>Location: {props.location}</p>
         </div>
     )

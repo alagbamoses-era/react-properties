@@ -1,7 +1,10 @@
 import './App.css';
+import { ComponentA } from './components/ComponentA';
 import { Counter } from './components/Counter';
 import MyComponents from './components/MyComponents';
 import { Students } from './components/props';
+import Components from './components/UseEffect.Counter';
+import { Window } from './components/WindowResize';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
   
   <MyComponents />
   <Counter />
+  <Components />
+  <Window />
+  <ComponentA />
   </div>
 )
 

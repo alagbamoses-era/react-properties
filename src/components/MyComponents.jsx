@@ -3,11 +3,11 @@ import './props.css'
 
 function MyComponents () {
     const [name, setName] = useState("Guest");
-    const [age, setAge] = useState(0);
+    const [age, setAge] = useState(7);
     const [isEmployed, setIsEmployed] = useState(false)
 
     const updateName = () => {
-        setName("Alagba")
+        setName("Glory")
     }
 
     const incrementAge = () => {

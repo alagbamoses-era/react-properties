@@ -5,7 +5,7 @@
 }
 
 .student p {
-    margin: 10px;
+    margin: 5px;
     padding: 0;
     font-size: 20px;
     font-weight: bold;
@@ -17,7 +17,7 @@
     height: 25px;
     font-size: 15px;
     font-weight: bold;
-    margin: 0px 5px;
+    margin: 5px 5px;
     background-color: purple;
     color: white;
     border: none;
@@ -55,4 +55,22 @@
 
 .counter-button:hover {
 background-color: "green";
+}
+
+
+.window {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+
+}
+
+.box {
+    border: 3px solid black;
+    padding: 25px;
+
 }
