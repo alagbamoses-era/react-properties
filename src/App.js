@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { Students } from './components/props';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div className='students'>
+  
+  <Students name= "Alagba" sex="Male" age={30} isStudent={true} income={200000} location="Newcastle"/>
+  <Students name= "Glory" sex="Female" age={8} isStudent={true} income={2000} location="Newcastle"/>
+  <Students name= "Victor" sex="Male" age={4} isStudent={true} income={2000} location="Newcastle"/>
+  <Students name= "Alagba" sex="Male" age={30} isStudent={true} income={200000} location="Newcastle"/>
+  <Students name= "Glory" sex="Female" age={8} isStudent={true} income={2000} location="Newcastle"/>
+  <Students name= "Victor" sex="Male" age={4} isStudent={true} income={2000} location="Newcastle"/>
+  <Students name= "Bukola" />
+  </div>
+)
+
 }
 
 export default App;

@@ -1,0 +1,10 @@
+.student {
+  border: 1px solid purple;
+  border-radius: 10px;
+
+}
+
+.student p {
+    margin: 0;
+    padding: 0;
+}
