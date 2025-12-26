@@ -19,14 +19,14 @@ function MyComponents () {
 
     return (
         <div className="student">
-            <p>Name: {name}</p>
-            <button onClick={updateName}>Set Name</button>
+            <p className="status">Name: {name}</p>
+            <button onClick={updateName} className="employee-button">Set Name</button>
 
             <p>Age: {age}</p>
-            <button onClick={incrementAge}>Increment Age</button>
+            <button onClick={incrementAge} className="employee-button">Increment Age</button>
 
             <p>Is Employed: {isEmployed? "Yes" : "No"}</p>
-            <button onClick={toggleEmployedStatus}>Toggle Status</button>
+            <button onClick={toggleEmployedStatus} className="employee-button">Toggle Status</button>
         </div>
     )
 }
